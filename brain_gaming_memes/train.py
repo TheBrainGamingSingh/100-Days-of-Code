@@ -27,7 +27,7 @@ BATCH_SIZE = 256
 print('loading json data...')
 t = time.time()
 
-training_data = json.load(open(BASE_PATH + '/training_data_sample.json'))
+training_data = json.load(open(BASE_PATH + '/train_gena_24_4000.json'))
 
 print('loading json took %ds' % round(time.time() - t))
 util.print_memory()
